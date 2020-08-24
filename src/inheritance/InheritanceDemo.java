@@ -29,6 +29,20 @@ public class InheritanceDemo {
     // properties (fields/variables) and/or methods of another class related to it.
 
     // 2. We can use Inheritance to re-use code/programs/software that is already developed and tested.
+
+    // Re-Use a code : If a code is already developed,
+    // we can develop the code further without starting from scratch.
+
+    // end-users : only use the software. (These people might not be engineers
+    // or people who know how to write code)
+    // developers : can observe/modify the source code.
+
+    // There are two types of software:
+    // 1. Open Source Software:
+    //  i. allows developers to view the source code, AND
+    // ii. it has to specify whether the developers can modify the source code.
+    // 2. Closed Source Software:
+
     // 3. Observe the use of the `extends` keyword.
     // 4. What is `super` class, and what is a `sub` class.
     // 5. How we can access the fields/methods of a super class from a sub class.
