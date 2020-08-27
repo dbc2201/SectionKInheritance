@@ -6,7 +6,7 @@
  * */
 package definitions.transport;
 
-public class Vehicle { // parent class ? or a child class ?
+public class Vehicle { // parent class
     public void travel() {
         // So, how can we polymorph this method?
         // - we can either change the number of parameters

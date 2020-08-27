@@ -7,7 +7,11 @@
 package definitions.transport;
 
 public class FourWheeler extends Vehicle {
-
+    public void travel(String source, String destination) {
+        System.out.println(
+                "FourWheeler is travelling from " + source + " to " + destination + "."
+        );
+    }
 }
 
 
