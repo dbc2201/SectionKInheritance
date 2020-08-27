@@ -11,5 +11,8 @@
 ## Polymorphism
 ### Types of Polymorphism
 1. Method Overloading
+- Changing the behaviour of a method by changing:
+- either the number of parameters OR
+- the type of the parameters
 
 2. Method Overriding

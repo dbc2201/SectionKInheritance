@@ -13,6 +13,16 @@ public class Vehicle { // parent class ? or a child class ?
         // - or, we can change the type of the parameters
         System.out.println("Vehicle is travelling to Delhi.");
     }
+
+    // This is a polymorphic method.
+    // The proper name is : Method Overloading,
+    // The concept is just the same, we have only discovered the proper name for it.
+    // This travel() method is overloaded.
+    // This is an overloaded version of the travel() method.
+    public void travel(String destination) {
+        System.out.println("Vehicle is travelling to " + destination + ".");
+    }
+
 }
 
 // Vehicle <- (is inherited by) FourWheeler
