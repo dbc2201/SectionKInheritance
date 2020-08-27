@@ -16,3 +16,5 @@ public class Vehicle { // parent class ? or a child class ?
 // This class will only become a parent class when it has a child class!
 
 // Right now, this is just a simple definition class. okay?
+
+// Now, we can doubt whether this class is a parent class.

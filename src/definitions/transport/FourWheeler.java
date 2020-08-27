@@ -6,5 +6,11 @@
  * */
 package definitions.transport;
 
-public class FourWheeler {
+public class FourWheeler extends Vehicle {
+
 }
+
+
+// Vehicle class is the parent class of FourWheeler class.
+// Now, the Vehicle class has become the parent class, and
+// the FourWheeler class has become the child class. ok?
