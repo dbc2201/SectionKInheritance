@@ -6,9 +6,29 @@
  * */
 package definitions.transport;
 
-public class Car extends Vehicle {
+// from common knowledge, we know that,
+// A Car IS A type of Vehicle, and
+// A Car IS A type of FourWheeler also, right?
+public class Car extends FourWheeler {
 
 }
+
+// So, that becomes,
+// FourWheeler <- (is inherited by) Car
+// The FourWheeler.java class is now the parent class of the Car.java class.
+// The Car.java class is now the child class of the FourWheeler.java class.
+// but, we also know that,
+// Vehicle <- (is inherited by) FourWheeler
+// So, the FourWheeler.java class is the child class of the Vehicle.java class.
+// & the Vehicle.java class is the parent class of the FourWheeler.java class.
+
+// Vehicle <- (is inherited by) FourWheeler <- (is inherited by) Car
+// The Vehicle.java class is the parent class of the FourWheeler.java class.
+// The FourWheeler.java class is the child class of the Vehicle.java class.
+// & The FourWheeler.java class is also the parent of the Car.java class.
+// The Car.java class is the child class of the FourWheeler.java class.
+// Vehicle (grandparent) <- FourWheeler (parent) <- Car (child)
+// This is an example of multi-level inheritance.
 
 // Vehicle <- (is inherited by) Car
 // The Vehicle.java class is now the parent class of the Car.java class.
