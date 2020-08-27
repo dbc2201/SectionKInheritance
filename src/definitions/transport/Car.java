@@ -10,7 +10,7 @@ package definitions.transport;
 // A Car IS A type of Vehicle, and
 // A Car IS A type of FourWheeler also, right?
 public class Car extends FourWheeler {
-
+    // Car IS A type of FourWheeler
 }
 
 // So, that becomes,

@@ -8,9 +8,10 @@ package main;
 
 import definitions.Phone;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Phone phone = new Phone();
-        phone.getContactNumber();
+        Scanner scanner = new Scanner(System.in);
     }
 }
