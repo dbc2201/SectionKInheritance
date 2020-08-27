@@ -7,6 +7,12 @@
 package definitions.transport;
 
 public class Vehicle { // parent class ? or a child class ?
+    public void travel() {
+        // So, how can we polymorph this method?
+        // - we can either change the number of parameters
+        // - or, we can change the type of the parameters
+        System.out.println("Vehicle is travelling to Delhi.");
+    }
 }
 
 // Vehicle <- (is inherited by) FourWheeler
