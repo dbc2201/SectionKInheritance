@@ -13,14 +13,22 @@ package definitions.examples;
 
 public class Example1 {
     public static void main(String[] args) {
-
+        DemoA objectA = new DemoA();
+        objectA.display();
+        objectA.printClassName();
+        DemoB objectB = new DemoB();
+        objectB.display();
+        objectB.printClassName();
     }
 }
 class DemoA {
     public void display() {
         System.out.println("Class DemoA Method.");
     }
+    public void printClassName() {
+        System.out.println(this.getClass().getName());
+    }
 }
-class DemoB {
+class DemoB extends DemoA {
 
 }
