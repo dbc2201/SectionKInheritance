@@ -6,6 +6,11 @@
  * */
 package definitions.examples;
 
+// If we create a public class then,
+// the name of the public class and
+// the name of the file it is declared in
+// should be exactly the same!
+
 public class Example1 {
     public static void main(String[] args) {
 
