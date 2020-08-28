@@ -17,5 +17,7 @@ public class Example1 {
     }
 }
 class DemoA {
-
+    public void display() {
+        System.out.println("Class DemoA Method.");
+    }
 }
