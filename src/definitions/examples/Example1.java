@@ -15,10 +15,8 @@ public class Example1 {
     public static void main(String[] args) {
         DemoA objectA = new DemoA();
         objectA.display();
-        objectA.printClassName();
         DemoB objectB = new DemoB();
         objectB.display();
-        objectB.printClassName();
     }
 }
 class DemoA {
@@ -30,5 +28,9 @@ class DemoA {
     }
 }
 class DemoB extends DemoA {
-
+    @Override
+    public void display() { // Method Overriding
+        // We wanted to change the behaviour (functionality) of this method.
+        System.out.println("Class DemoB Method.");
+    }
 }
