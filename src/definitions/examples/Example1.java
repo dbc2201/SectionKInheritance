@@ -16,3 +16,6 @@ public class Example1 {
 
     }
 }
+class DemoA {
+
+}
