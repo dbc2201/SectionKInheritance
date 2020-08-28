@@ -21,3 +21,6 @@ class DemoA {
         System.out.println("Class DemoA Method.");
     }
 }
+class DemoB {
+
+}
