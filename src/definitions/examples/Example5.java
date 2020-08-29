@@ -14,4 +14,9 @@ public class Example5 {
 class Bike {
     int modelNumber;
     int modelYear;
+
+    void display() {
+        System.out.println("modelNumber = " + modelNumber);
+        System.out.println("modelYear = " + modelYear);
+    }
 }
