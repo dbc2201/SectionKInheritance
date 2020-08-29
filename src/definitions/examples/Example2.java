@@ -37,4 +37,8 @@ class C extends A {
         j = x * 5;
         System.out.println("j = " + j);
     }
+
+    public void methodC() {
+        System.out.println("Class C method.");
+    }
 }
