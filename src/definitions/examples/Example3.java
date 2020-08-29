@@ -19,4 +19,9 @@ class A1 {
         j = y;
         System.out.println("i = " + i + ", j = " + j);
     }
+
+    public int sum(int x, int y) {
+        int sum = i + j;
+        return sum;
+    }
 }
