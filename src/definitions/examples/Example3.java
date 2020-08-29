@@ -40,3 +40,6 @@ class C1 extends A1 {
         return division;
     }
 }
+class D1 {
+
+}
