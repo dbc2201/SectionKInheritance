@@ -11,6 +11,7 @@ public class Example5 {
         Bike myBike = new Bike();
         myBike.modelNumber = 12;
         myBike.modelYear = 2020;
+        myBike.display();
     }
 }
 
