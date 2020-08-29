@@ -34,3 +34,7 @@ class Airplane {
         System.out.println("numberOfSeats = " + numberOfSeats);
     }
 }
+
+class JetPlane {
+
+}
