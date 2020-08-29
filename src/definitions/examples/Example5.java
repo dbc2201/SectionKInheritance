@@ -20,6 +20,6 @@ class Bike {
         System.out.println("modelYear = " + modelYear);
     }
 }
-class SuperBike {
+class SuperBike extends Bike {
 
 }
