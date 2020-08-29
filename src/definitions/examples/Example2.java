@@ -17,11 +17,13 @@ class A {
 
     public void methodA(int k) {
         j = k;
+        System.out.println("j = " + j);
     }
 }
 class B extends A {
     @Override
     public void methodA(int k) {
         j = k * k;
+        System.out.println("j = " + j);
     }
 }
