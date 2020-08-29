@@ -11,6 +11,9 @@ public class Example3 {
         B1 objectB1 = new B1();
         objectB1.setValue(10, 9);
         System.out.println(objectB1.product(10, 9));
+        C1 objectC1 = new C1();
+        objectC1.setValue(35, 7);
+        System.out.println(objectC1.division(1, 1));
     }
 }
 
