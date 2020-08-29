@@ -21,4 +21,8 @@ class Airplane {
         this.numberOfSeats = numberOfSeats;
     }
 
+    public void display() {
+        System.out.println("airplaneID = " + airplaneID);
+        System.out.println("numberOfSeats = " + numberOfSeats);
+    }
 }
