@@ -26,4 +26,8 @@ class B extends A {
         j = k * k;
         System.out.println("j = " + j);
     }
+
+    public void methodB() {
+        System.out.println("Class B method.");
+    }
 }
