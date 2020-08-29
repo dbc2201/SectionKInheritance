@@ -19,6 +19,6 @@ class A {
         j = k;
     }
 }
-class B {
+class B extends A {
 
 }
