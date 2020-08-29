@@ -8,7 +8,10 @@ package definitions.examples;
 
 public class Example6 {
     public static void main(String[] args) {
-
+        Airplane myAirplane = new Airplane(1, 100);
+        myAirplane.display();
+        JetPlane myPrivateJet = new JetPlane(2, 25, 4);
+        myPrivateJet.display();
     }
 }
 
@@ -46,6 +49,7 @@ class JetPlane extends Airplane {
     @Override
     public void display() {
         super.display();
+        System.out.println("airplaneID = " + getAirplaneID());
         System.out.println("numberOfEngines = " + numberOfEngines);
     }
 }
