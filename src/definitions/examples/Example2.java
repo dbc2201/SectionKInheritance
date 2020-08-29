@@ -42,3 +42,6 @@ class C extends A {
         System.out.println("Class C method.");
     }
 }
+class D {
+
+}
