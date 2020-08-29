@@ -11,10 +11,15 @@ public class Example4 {
 
     }
 }
+
 class Vehicle {
     float speed;
     float mileage;
+
     void methodA() {
         System.out.println("Vehicle class method.");
     }
+}
+class Bus {
+
 }
