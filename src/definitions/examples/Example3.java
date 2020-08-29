@@ -41,5 +41,8 @@ class C1 extends A1 {
     }
 }
 class D1 extends A1 {
-
+    public int difference(int x, int y) {
+        int difference = i - j;
+        return difference;
+    }
 }
