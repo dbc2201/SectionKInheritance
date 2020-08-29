@@ -25,6 +25,6 @@ class A1 {
         return sum;
     }
 }
-class B1 {
+class B1 extends A1 {
 
 }
