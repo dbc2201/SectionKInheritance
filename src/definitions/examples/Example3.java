@@ -13,4 +13,10 @@ public class Example3 {
 }
 class A1 {
     public int i, j;
+
+    void setValue(int x, int y) {
+        i = x;
+        j = y;
+        System.out.println("i = " + i + ", j = " + j);
+    }
 }
