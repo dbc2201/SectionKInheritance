@@ -33,3 +33,6 @@ class B1 extends A1 {
         return product;
     }
 }
+class C1 {
+
+}
