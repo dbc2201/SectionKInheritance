@@ -20,6 +20,6 @@ class Vehicle {
         System.out.println("Vehicle class method.");
     }
 }
-class Bus {
+class Bus extends Vehicle {
 
 }
