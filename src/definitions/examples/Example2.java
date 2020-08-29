@@ -32,5 +32,9 @@ class B extends A {
     }
 }
 class C extends A {
-
+    @Override
+    public void methodA(int x) {
+        j = x * 5;
+        System.out.println("j = " + j);
+    }
 }
