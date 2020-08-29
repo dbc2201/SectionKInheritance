@@ -13,8 +13,8 @@ public class Example6 {
 }
 
 class Airplane {
-    private int airplaneID;
-    private int numberOfSeats;
+    private final int airplaneID;
+    private final int numberOfSeats;
 
     public Airplane(int airplaneID, int numberOfSeats) {
         this.airplaneID = airplaneID;
@@ -35,6 +35,8 @@ class Airplane {
     }
 }
 
-class JetPlane {
-
+class JetPlane extends Airplane {
+    public JetPlane(int airplaneID, int numberOfSeats) {
+        super(airplaneID, numberOfSeats);
+    }
 }
