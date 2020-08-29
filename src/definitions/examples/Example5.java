@@ -11,6 +11,7 @@ public class Example5 {
 
     }
 }
+
 class Bike {
     int modelNumber;
     int modelYear;
@@ -20,6 +21,7 @@ class Bike {
         System.out.println("modelYear = " + modelYear);
     }
 }
-class SuperBike extends Bike {
 
+class SuperBike extends Bike {
+    int maxSpeed;
 }
