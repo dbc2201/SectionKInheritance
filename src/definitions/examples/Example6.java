@@ -36,6 +36,8 @@ class Airplane {
 }
 
 class JetPlane extends Airplane {
+    private int numberOfEngines;
+
     public JetPlane(int airplaneID, int numberOfSeats) {
         super(airplaneID, numberOfSeats);
     }
