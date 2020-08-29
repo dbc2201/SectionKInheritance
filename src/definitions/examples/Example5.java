@@ -13,6 +13,10 @@ public class Example5 {
         myBike.modelYear = 2020;
         myBike.display();
         SuperBike mySuperBike = new SuperBike();
+        mySuperBike.modelNumber = 19;
+        mySuperBike.modelYear = 2019;
+        mySuperBike.maxSpeed = 200;
+        mySuperBike.display();
     }
 }
 
