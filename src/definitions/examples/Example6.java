@@ -15,4 +15,10 @@ public class Example6 {
 class Airplane {
     private int airplaneID;
     private int numberOfSeats;
+
+    public Airplane(int airplaneID, int numberOfSeats) {
+        this.airplaneID = airplaneID;
+        this.numberOfSeats = numberOfSeats;
+    }
+
 }
