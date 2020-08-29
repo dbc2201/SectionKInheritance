@@ -25,3 +25,6 @@ class A1 {
         return sum;
     }
 }
+class B1 {
+
+}
