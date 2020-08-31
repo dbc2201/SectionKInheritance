@@ -30,3 +30,5 @@ When the binding  is performed by the compiler, at the compile-time, it is known
 Binding for all static, private, and final methods is done at compile time.
 
 ### Dynamic Binding
+It is also called `late-binding`. The compiler is not able to resolve the method call 
+at compile time. Ex - method overriding.
