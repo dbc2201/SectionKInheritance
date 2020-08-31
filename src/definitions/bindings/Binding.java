@@ -7,4 +7,7 @@
 package definitions.bindings;
 
 public class Binding {
+    public static void main(String[] args) {
+
+    }
 }
