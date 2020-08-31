@@ -17,3 +17,14 @@
 
 2. Method Overriding
 - Changing the behaviour of a method with calling it with different objects.
+
+
+--- 
+## Binding
+It is the associating of a method call to its method body.
+It has the following two types:
+
+### Static Binding
+
+
+### Dynamic Binding
