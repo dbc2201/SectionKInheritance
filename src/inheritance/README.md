@@ -25,6 +25,8 @@ It is the associating of a method call to its method body.
 It has the following two types:
 
 ### Static Binding
-
+When the binding  is performed by the compiler, at the compile-time, it is known as
+`static binding` or `early binding`.
+Binding for all static, private, and final methods is done at compile time.
 
 ### Dynamic Binding

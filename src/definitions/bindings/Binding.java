@@ -8,12 +8,13 @@ package definitions.bindings;
 
 public class Binding {
     public static void main(String[] args) {
-
+        A objectA = new A();
+        objectA.display(); // method call
     }
 }
 
 class A {
-    public void display() {
+    public void display() { // method body
         System.out.println("Class A.");
     }
 }
