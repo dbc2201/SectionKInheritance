@@ -11,3 +11,7 @@ public class Binding {
 
     }
 }
+
+class A {
+
+}
