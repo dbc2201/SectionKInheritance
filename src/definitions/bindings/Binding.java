@@ -15,3 +15,7 @@ public class Binding {
 class A {
 
 }
+
+class B {
+
+}
