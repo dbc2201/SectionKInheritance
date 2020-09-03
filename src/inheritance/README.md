@@ -35,3 +35,17 @@ at compile time. Ex - method overriding.
 
 
 ## Dynamic Method Dispatch
+- It is a mechanism by which we can achieve runtime polymorphism for
+overridden methods in Java.
+
+- It is implemented with the help of a reference variable of the Parent Class (SuperClass).
+
+- The reference variable of the parent class can refer to the reference value
+of an object of the Child Class (SubClass).
+
+- There can be many subclasses inherited from a superclass.
+
+- Each subclass will have its own version of the overridden method.
+
+- The compiler will use the Dynamic Method Dispatch concept to find the correct
+ version of the overridden method that should be executed.
