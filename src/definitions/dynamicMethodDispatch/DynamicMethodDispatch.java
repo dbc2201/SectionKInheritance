@@ -9,25 +9,26 @@ package definitions.dynamicMethodDispatch;
 public class DynamicMethodDispatch {
     public static void main(String[] args) {
         Bike bike1 = new Bike();
+        bike1.display();
     }
 }
 
 class Bike {
-    public void display() {
+    public void display() { // #1
         System.out.println("Bike Class.");
     }
 }
 
 class RacingBike extends Bike {
     @Override
-    public void display() {
+    public void display() { // #2
         System.out.println("RacingBike Class.");
     }
 }
 
 class DeliveryBike extends Bike {
     @Override
-    public void display() {
+    public void display() { // #3
         System.out.println("DeliveryBike Class.");
     }
 }
