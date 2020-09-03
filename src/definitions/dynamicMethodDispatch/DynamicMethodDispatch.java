@@ -18,7 +18,7 @@ class Bike {
     }
 }
 
-class RacingBike {
+class RacingBike extends Bike {
 
 }
 
