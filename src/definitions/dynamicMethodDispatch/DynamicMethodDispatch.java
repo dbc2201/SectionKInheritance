@@ -15,7 +15,13 @@ public class DynamicMethodDispatch {
         DeliveryBike deliveryBike1 = new DeliveryBike();
         deliveryBike1.display();
 
-        Bike bike2;
+        Bike bike2 = racingBike1;
+        // RacingBike newRacingBike = new Bike(); NOT ALLOWED
+        bike2.display();
+        bike2.refuel();
+        // The reference variable of the parent class can call the methods
+        // from the child class if and only if the methods were overridden
+        // from the parent class.
     }
 }
 
@@ -23,12 +29,20 @@ class Bike {
     public void display() { // #1
         System.out.println("Bike Class.");
     }
+
+    public void refuel() {
+        System.out.println("refueling...");
+    }
 }
 
 class RacingBike extends Bike {
-    @Override
-    public void display() { // #2
-        System.out.println("RacingBike Class.");
+//    @Override
+//    public void display() { // #2
+//        System.out.println("RacingBike Class.");
+//    }
+
+    public void race() {
+        System.out.println("racing...");
     }
 }
 
