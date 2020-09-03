@@ -36,10 +36,10 @@ class Bike {
 }
 
 class RacingBike extends Bike {
-//    @Override
-//    public void display() { // #2
-//        System.out.println("RacingBike Class.");
-//    }
+    @Override
+    public void display() { // #2
+        System.out.println("RacingBike Class.");
+    }
 
     public void race() {
         System.out.println("racing...");
