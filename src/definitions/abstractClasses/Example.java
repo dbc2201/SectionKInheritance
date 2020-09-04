@@ -6,8 +6,16 @@
  * */
 package definitions.abstractClasses;
 
+import java.time.LocalDateTime;
+
 public class Example {
     public static void main(String[] args) {
 
+    }
+}
+
+class Watch {
+    public void tellTime() {
+        System.out.println(LocalDateTime.now());
     }
 }
