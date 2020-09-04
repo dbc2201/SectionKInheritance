@@ -13,7 +13,9 @@ public class Difference {
 }
 
 class Human {
-
+    public void talk() {
+        System.out.println("I am Human.");
+    }
 }
 
 class Student extends Human {
