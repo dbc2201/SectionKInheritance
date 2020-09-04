@@ -20,6 +20,6 @@ class Watch {
     }
 }
 
-class SportsWatch {
+class SportsWatch extends Watch {
 
 }
