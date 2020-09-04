@@ -57,3 +57,6 @@ of an object of the Child Class (SubClass).
  4. Enums.
  
  ## Abstract Classes
+ - It may be sometimes desired that the parent class does not want to define the 
+ functionality of a method, because every child class is overriding the method in
+ itself.
