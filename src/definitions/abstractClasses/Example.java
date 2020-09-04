@@ -19,3 +19,7 @@ class Watch {
         System.out.println(LocalDateTime.now());
     }
 }
+
+class SportsWatch {
+
+}
