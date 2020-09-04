@@ -49,3 +49,11 @@ of an object of the Child Class (SubClass).
 
 - The compiler will use the Dynamic Method Dispatch concept to find the correct
  version of the overridden method that should be executed.
+ 
+ In Java, we have 4 types of program units:
+ 1. Classes (a definition class, and an execution class).
+ 2. Abstract Classes.
+ 3. Interfaces.
+ 4. Enums.
+ 
+ ## Abstract Classes
