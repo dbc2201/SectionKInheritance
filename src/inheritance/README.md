@@ -60,3 +60,7 @@ of an object of the Child Class (SubClass).
  - It may be sometimes desired that the parent class does not want to define the 
  functionality of a method, because every child class is overriding the method in
  itself.
+ - An abstract class should have at least 1 abstract methods.
+ - It is necessary for the child classes of an abstract to implement (override)
+ all the abstract methods of the abstract class.
+ 

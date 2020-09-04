@@ -12,12 +12,37 @@ public class Difference {
     }
 }
 
-class Human {
-    public void talk() {
-        System.out.println("I am Human.");
+abstract class Human {
+    abstract public void talk();
+    abstract public void walk();
+    abstract public void eat();
+    abstract public void breathe();
+
+    public void sleep() {
+        System.out.println("I am sleeping...");
     }
+
 }
 
 class Student extends Human {
 
+    @Override
+    public void talk() {
+
+    }
+
+    @Override
+    public void walk() {
+
+    }
+
+    @Override
+    public void eat() {
+
+    }
+
+    @Override
+    public void breathe() {
+
+    }
 }
