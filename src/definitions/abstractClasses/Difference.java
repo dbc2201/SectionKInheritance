@@ -11,3 +11,7 @@ public class Difference {
 
     }
 }
+
+class Human {
+
+}
