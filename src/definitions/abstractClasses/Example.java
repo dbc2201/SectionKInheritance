@@ -11,17 +11,21 @@ import java.time.format.DateTimeFormatter;
 
 public class Example {
     public static void main(String[] args) {
-        Watch watch = new Watch();
-        watch.tellTime();
         SportsWatch sportsWatch = new SportsWatch();
         sportsWatch.tellTime();
+        FancyWatch fancyWatch = new FancyWatch();
+        fancyWatch.tellTime();
     }
 }
 
-class Watch {
-    public void tellTime() {
-        System.out.println(LocalDateTime.now());
-    }
+abstract class Watch {
+    abstract public void tellTime();
+    // abstract means something that is not properly defined.
+    // this tellTime() method is now an abstract method.
+    // abstract methods are those method whose bodies are not defined properly.
+    // since this method is now an abstract method,
+    // the class should also be declared as an abstract class.
+    // in the case of abstract classes, overriding is called implementing
 }
 
 class SportsWatch extends Watch {
@@ -35,5 +39,12 @@ class FancyWatch extends Watch {
     @Override
     public void tellTime() {
         System.out.println(LocalDateTime.now().format(DateTimeFormatter.ISO_TIME));
+    }
+}
+
+class MilitaryWatch extends Watch {
+    @Override
+    public void tellTime() {
+
     }
 }
