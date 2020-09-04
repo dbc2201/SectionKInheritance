@@ -11,7 +11,10 @@ import java.time.format.DateTimeFormatter;
 
 public class Example {
     public static void main(String[] args) {
-
+        Watch watch = new Watch();
+        watch.tellTime();
+        SportsWatch sportsWatch = new SportsWatch();
+        sportsWatch.tellTime();
     }
 }
 
@@ -26,4 +29,8 @@ class SportsWatch extends Watch {
     public void tellTime() {
         System.out.println(LocalDateTime.now().format(DateTimeFormatter.ISO_LOCAL_DATE));
     }
+}
+
+class FancyWatch extends Watch {
+
 }
