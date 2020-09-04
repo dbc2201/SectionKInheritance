@@ -7,5 +7,7 @@
 package definitions.abstractClasses;
 
 public class Difference {
+    public static void main(String[] args) {
 
+    }
 }
