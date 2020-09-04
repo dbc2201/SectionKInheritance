@@ -32,5 +32,8 @@ class SportsWatch extends Watch {
 }
 
 class FancyWatch extends Watch {
-
+    @Override
+    public void tellTime() {
+        System.out.println(LocalDateTime.now().format(DateTimeFormatter.ISO_TIME));
+    }
 }
