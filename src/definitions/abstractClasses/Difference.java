@@ -12,7 +12,11 @@ public class Difference {
     }
 }
 
-abstract class Human {
+class LivingBeing {
+
+}
+
+abstract class Human extends LivingBeing {
     abstract public void talk();
     abstract public void walk();
     abstract public void eat();
@@ -25,6 +29,11 @@ abstract class Human {
 }
 
 class Student extends Human {
+
+    @Override
+    public void sleep() {
+        System.out.println("Human is sleeping...");
+    }
 
     @Override
     public void talk() {
