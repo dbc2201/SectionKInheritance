@@ -20,5 +20,10 @@ public interface Human {
     int number = 4;
 
     // for methods of the interface
+    // i. every method declared in an interface is automatically considered
+    // as an abstract method by the compiler.
+    // ii. every methods declared in an interface is automatically considered
+    // as public by the compiler.
+    public abstract void display();
 
 }
