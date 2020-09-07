@@ -26,4 +26,7 @@ public interface Human {
     // as public by the compiler.
     public abstract void display();
 
+    void eat();
+    void talk();
+
 }
